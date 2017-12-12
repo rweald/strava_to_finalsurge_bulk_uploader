@@ -1,0 +1,29 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httmultiparty (0.3.16)
+      httparty (>= 0.7.3)
+      mimemagic
+      multipart-post
+    httparty (0.15.6)
+      multi_xml (>= 0.5.2)
+    mimemagic (0.3.2)
+    multi_json (1.12.2)
+    multi_xml (0.6.0)
+    multipart-post (2.0.0)
+    paint (1.0.1)
+    restclient (0.14.4)
+      paint (~> 1.0)
+    strava-api-v3 (0.7.0)
+      httmultiparty
+      multi_json
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  restclient!
+  strava-api-v3!
+
+BUNDLED WITH
+   1.11.2
